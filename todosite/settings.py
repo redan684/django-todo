@@ -30,7 +30,7 @@ DEBUG = True
 
 TESTING = len(sys.argv) > 1 and sys.argv[1] == 'test'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','nadertodo-cli.herokuapp.com']
 
 AUTH_USER_MODEL = "authentication.User"
 
